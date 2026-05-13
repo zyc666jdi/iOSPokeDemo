@@ -9,7 +9,7 @@ struct PokemonDetailView: View {
                 // Name header card
                 HStack {
                     VStack(alignment: .leading, spacing: 4) {
-                        Text("Pokemon")
+                        Text("Pokémon")
                             .font(.caption)
                             .foregroundStyle(.secondary)
                         Text(pokemon.name.capitalized.replacingOccurrences(of: "-", with: " "))

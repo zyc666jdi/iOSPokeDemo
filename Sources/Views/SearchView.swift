@@ -22,7 +22,7 @@ struct SearchView: View {
         HStack(spacing: 10) {
             Image(systemName: "magnifyingglass")
                 .foregroundStyle(.secondary)
-            TextField("Search Pokemon species...", text: $viewModel.searchText)
+            TextField("Search Pokémon species...", text: $viewModel.searchText)
                 .autocorrectionDisabled()
                 .textInputAutocapitalization(.never)
                 .onChange(of: viewModel.searchText) { newValue in
@@ -82,7 +82,7 @@ struct SearchView: View {
             Image(systemName: "rectangle.and.text.magnifyingglass")
                 .font(.system(size: 60))
                 .foregroundStyle(.secondary)
-            Text("Search Pokemon Species")
+            Text("Search Pokémon Species")
                 .font(.headline)
             Text("Type a name to start")
                 .font(.subheadline)

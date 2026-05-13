@@ -17,9 +17,9 @@ struct SpeciesRowView: View {
 
             Divider()
 
-            // Pokemon chips
+            // Pokémon chips
             if species.pokemons.isEmpty {
-                Text("No Pokemon data")
+                Text("No Pokémon data")
                     .font(.caption)
                     .foregroundStyle(.secondary)
             } else {
@@ -44,11 +44,11 @@ struct SpeciesRowView: View {
         .padding()
         .background(
             RoundedRectangle(cornerRadius: 14)
-                .fill(Color.pokemonColor(species.color))
+                .fill(Color.pokémonColor(species.color))
         )
         .overlay(
             RoundedRectangle(cornerRadius: 14)
-                .stroke(Color.pokemonColor(species.color), lineWidth: 1)
+                .stroke(Color.pokémonColor(species.color), lineWidth: 1)
         )
     }
 

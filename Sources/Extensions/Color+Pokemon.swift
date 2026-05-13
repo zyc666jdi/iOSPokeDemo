@@ -1,7 +1,7 @@
 import SwiftUI
 
 extension Color {
-    static func pokemonColor(_ name: String) -> Color {
+    static func pokémonColor(_ name: String) -> Color {
         switch name.lowercased() {
         case "red":    return Color.red.opacity(0.25)
         case "blue":   return Color.blue.opacity(0.25)

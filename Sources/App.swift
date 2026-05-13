@@ -1,7 +1,7 @@
 import SwiftUI
 
 @main
-struct iOSPokeDemo: App {
+struct iOSPokémonDemo: App {
     @State private var showSplash: Bool = {
         let hasLaunched = UserDefaults.standard.bool(forKey: "hasLaunchedBefore")
         return !hasLaunched

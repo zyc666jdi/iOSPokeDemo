@@ -18,7 +18,7 @@ struct SplashView: View {
                     .font(.system(size: 36, weight: .bold, design: .rounded))
                     .foregroundStyle(.white)
 
-                Text("Discover Pokemon species")
+                Text("Discover Pokémon species")
                     .font(.title3)
                     .foregroundStyle(.white.opacity(0.85))
             }
